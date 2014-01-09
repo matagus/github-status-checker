@@ -1,0 +1,11 @@
+#indicator { text-align: top; margin: 0; padding: 0;}
+#status {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #AAA;
+  display: inline-block;
+}
+#status.good { background-color: #45FA25; }
+#status.minor { background-color: #EEFA41; }
+#status.mayor { background-color: #DB2C23; }

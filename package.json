@@ -1,0 +1,16 @@
+{
+  "name": "github-status-checker",
+  "fullName": "Github Status Checker",
+  "id": "github-status-checker",
+  "description": "Github Status Checker",
+  "author": "Matias Agustin Mendez",
+  "license": "MPL 2.0",
+  "version": "0.3.1",
+  "preferences": [{
+    "name": "checkInterval",
+    "title": "Checking interval",
+    "description": "Check api.github.com every N minutes",
+    "type": "integer",
+    "value": 5
+  }]
+}
