@@ -6,11 +6,29 @@
   "author": "Matias Agustin Mendez",
   "license": "MPL 2.0",
   "version": "0.3.1",
-  "preferences": [{
-    "name": "checkInterval",
-    "title": "Checking interval",
-    "description": "Check api.github.com every N minutes",
-    "type": "integer",
-    "value": 5
-  }]
+  "preferences": [
+    {
+      "name": "checkInterval",
+      "title": "Checking interval",
+      "description": "Check api.github.com every N minutes",
+      "type": "integer",
+      "value": 5
+    },
+    {
+        "name": "guiMode",
+        "type": "menulist",
+        "title": "Large or Compact",
+        "value": "compact",
+        "options": [
+            {
+                "value": "compact",
+                "label": "Compact"
+            },
+            {
+                "value": "large",
+                "label": "Large"
+            }
+        ]
+    }
+  ]
 }

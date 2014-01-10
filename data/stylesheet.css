@@ -9,3 +9,5 @@
 #status.good { background-color: #45FA25; }
 #status.minor { background-color: #EEFA41; }
 #status.mayor { background-color: #DB2C23; }
+#container.compact a { display: none; }
+#container.large a { display: inline-block; }
