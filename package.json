@@ -5,7 +5,7 @@
   "description": "Github Status Checker",
   "author": "Matias Agustin Mendez",
   "license": "MPL 2.0",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "preferences": [
     {
       "name": "checkInterval",
